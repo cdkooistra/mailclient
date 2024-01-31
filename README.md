@@ -9,7 +9,7 @@ This Python library provides a simple yet powerful interface to interact with bo
 #### Initialization
 
 ```python
-from email_client import imapClient
+from client import imapClient
 
 recipient_email = "recipient@example.com"
 password = "your_password"
@@ -49,7 +49,7 @@ imap_client.logout()
 #### Initialization
 
 ```python
-from email_client import smtpClient
+from client import smtpClient
 
 sender_email = "sender@example.com"
 sender_password = "your_password"
